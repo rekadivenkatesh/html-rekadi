@@ -1,0 +1,184 @@
+<html>
+    <head>
+		<title>Madhu's Diabetic Center</title>
+		<style type="text/css">
+			html, body { height: 100%;margin: 0 }
+		</style>
+		<!-- <link rel="icon" href="./images/Logo-psd.gif" type="image/x-icon" /> -->
+		<link href="./css/report.css" rel="stylesheet">
+		<link href="./css/tabs.css" rel="stylesheet">
+		<link href="./css/stylesheet.css" rel="stylesheet">
+		<script type="text/javascript" src="./js/site.js"></script>
+		<script type="text/javascript">
+			function onloadfun(){
+				if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)){ //test for MSIE x.x;
+					 document.all.tabBorderLine.className = 'tabBorderLineIE';
+				}
+			}
+		</script>
+    </head>
+    <body onload="onloadfun()">
+    <section style="background-color: #159957;background-image: linear-gradient(120deg, #155799, #159957);height: 70px; color: white;">
+      <span class="project-tagline">CSR Game</span>
+      <!-- <a href="https://github.com/jboss-javassist/javassist" class="btn">View on GitHub</a> -->
+    </section>
+    	<div style="background-color: #F2F2F2">
+    		<table class="mainDocumentStyleTable" border="0" cellpadding="0" cellspacing="0" align="center">
+	            <tr>
+	                <td>
+			    		<table class="documentStyleTable" cellpadding="0" cellspacing="0" align="center">
+				            <tr>
+				                <td height="140px">
+				                   <table width="100%">
+							    		<tr>
+							    			<td width="80%">
+							    				<div align="left" style="background-color: #159957;background-image: linear-gradient(120deg, #155799, #159957)">
+							    					<table>
+							    						<tr style="border-bottom: 1px solid #045FB4;">
+							    							<td style="padding-left: 25px;">
+																<label class="mainheaderlabel">DIABETIC CENTER</label>						    							
+							    							</td>
+							    						</tr>
+							    						<tr>
+							    							<td>
+																<label class="mainheaderlabel">DIABETIC CENTER</label>							    							
+							    							</td>
+							    						</tr>
+							    					</table>
+												</div>
+							    			</td>
+							    			<td>
+							    				<img alt="diabetic" src="./images/diabetics.gif" height="100px" width="100px">
+							    			</td>
+							    		</tr>
+							    	</table>
+				                </td>
+				            </tr>
+				            <tr>
+				                <td style="vertical-align: top;">
+				                    <table class="tabsTable" border="0" cellpadding="0" cellspacing="0">
+							    		<tr>
+							    			<td style="width: 10px">
+							    				<div align="left" style="width: 10px">
+													&nbsp;&nbsp;&nbsp;
+												</div>
+											</td>
+							    			<td style="width: 10px">
+							    				<div align="left" class="tabDiv" id="divHome" onclick="divHome();">
+													Home
+												</div>
+											</td>
+											<td style="width: 1px">
+							    				<div align="left" >&nbsp;</div>
+											</td>
+											<td style="width: 110px">
+							    				<div align="left" class="tabDivInActive" id="divUnits" onclick="divUnits();">
+													Diabetic Units
+												</div>
+											</td>
+											<td style="width: 1px">
+							    				<div align="left" >&nbsp;</div>
+											</td>
+											<td style="width: 130px">
+							    				<div align="left" class="tabDivInActive" id="divTeam" onclick="divTeam();">
+													Diabetic Team
+												</div>
+											</td>
+											<td style="width: 1px">
+							    				<div align="left" >&nbsp;</div>
+											</td>
+											<td style="width: 10px">
+							    				<div align="left" class="tabDivInActive" id="divSpeciality" onclick="divSpeciality();">
+													Specialties
+												</div>
+											</td>
+											<td style="width: 1px">
+							    				<div align="left" >&nbsp;</div>
+											</td>
+							    			<!-- <td style="width: 80px">
+							    				<div align="left" class="tabDivInActive" id="divAppointments" onclick="divAppointments();">
+													Appointments
+												</div>
+											</td> -->
+											<td style="width: 80px">
+							    				<div align="left" class="tabDivInActive" id="divContactus" onclick="divContactus();">
+													Contact Us
+												</div>
+											</td>
+											<td>
+							    				<div align="left" >&nbsp;</div>
+											</td>
+							    		</tr>
+							    	</table>
+							    	<table class="tabsTableInFrame" cellpadding="0" cellspacing="0">
+							    		<tr height="1px" style="border-bottom: 1px solid black;">
+							    			<td colspan="3">
+							    				<div align="left" id="tabBorderLine" class="tabBorderLine">&nbsp;</div>
+							    			</td>
+							    		</tr>
+							    		<tr>
+							    			<td colspan="2">
+							    				<div align="left" style="height: 100%;">
+													<iframe name="content_frame" id="content_frame" frameborder="0" src="./html/home.html" height="100%" width="100%"></iframe>
+												</div>
+							    			</td>
+							    			<td width="300px">
+							    				<div align="right" class="sideDivMain" >
+								    				<div align="left" class="sideDiv">
+								    					<div class="sideDivHeader">
+									    						FIND<br>
+																A	
+																DOCTOR
+								    					</div>
+								    					<div class="sideDivContent">
+									    						9989 664 663
+								    					</div>
+								    					<div>
+									    					<a onclick="contactUsPage()" class="sideLinks">CONTACT US</a>
+								    					</div>
+													</div>
+													<div style="background-color: white;width: 300px; height: 2px">
+														&nbsp;
+													</div>
+													<div align="left" class="sideDiv">
+								    					<div class="sideDivHeader">
+									    						HOSPITAL ROUTE MAP
+								    					</div>
+													</div>
+													<div style="background-color: white;width: 300px; height: 2px">
+														&nbsp;
+													</div>
+													<div class="sideLastDiv">
+														<div class="sideLastDivHeader">
+									    						NEWS<br>
+																AND	
+																EVENTS
+								    					</div>
+								    					<div class="sideLastDivContent">
+																FREE Weight Loss Seminars
+								    					</div>
+								    					<div>
+									    					<a onclick="contactUsPage()" class="sideLastLinks">
+									    						Find a date and register online >
+									    					</a>
+								    					</div>
+													</div>
+												</div>
+							    			</td>
+							    		</tr>
+							    	</table>
+				                </td>
+				            </tr>
+				            <tr>
+				                <td height="80px">
+				                    <div class="footerDiv">&nbsp;</div>
+									<div align="center" class="footerFont">&copy; venkatesh rekadi</div>
+				                </td>
+				            </tr>
+				        </table>
+					</td>
+				</tr>
+			</table>
+    	</div>
+    </body>
+</html>

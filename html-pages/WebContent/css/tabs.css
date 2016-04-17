@@ -1,0 +1,417 @@
+.divselected {
+	background-color: #ffffff;
+	border: 1px solid #D4D4D4;
+	border-bottom: none;
+	padding: 2px 2px 2px 2px;
+	cursor: pointer;
+	color: #1CA5EC;
+	font: 13px/18px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.divnotselected {
+	border: 1px solid #D4D4D4;
+	background-color: #F2F2F2;
+	padding: 2px 2px 2px 2px;
+	cursor: pointer;
+	color: #616161;
+	font: 13px/18px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.divover {
+	border: 1px solid #D4D4D4;
+	background-color: #E6E6E6;
+	padding: 2px 2px 2px 2px;
+	cursor: pointer;
+	color: #616161;
+	font: 13px/18px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.divout {
+	border: 1px solid #D4D4D4;
+	background-color: #F2F2F2;
+	padding: 2px 2px 2px 2px;
+	cursor: pointer;
+	color: #616161;
+	font: 13px/18px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.treeTable {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: #FFFFFF;
+}
+
+.treeTable tr {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	padding: 0px 0px 2px 5px;
+	border-right: 1px solid #D4D4D4;
+}
+
+.treeTable th {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	padding: 0px 0px 2px 5px;
+}
+
+.treeTable td {
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	padding: 0px 0px 2px 0px;
+	border-bottom: none;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+}
+
+.treeDivHead {
+	background-color: #E56717;
+	padding: 0px 0px 0px 0px;
+	border: none;
+}
+
+.treeDivNormal {
+	background-color: white;
+	line-height: 20px;
+	padding: 0px 0px 0px 0px;
+	border: none;
+	cursor: pointer;
+}
+
+.treeDivlabel {
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-size: 12px;
+	font-weight: 200;
+	padding: 0px 0px 0px 0px;
+	text-decoration: none;
+	line-height: 20px;
+	cursor: pointer;
+	color: #E81123;
+}
+
+.divselectedStyle {
+	background-color: #ffffff;
+	padding: 2px 2px 2px 2px;
+	cursor: pointer;
+	color: #1CA5EC;
+	font: 13px/18px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: white;
+	border: solid 1px #D4D4D4;
+	-webkit-box-shadow: 0px -3px 10px #D4D4D4;
+	-moz-box-shadow: 0px -3px 10px #D4D4D4;
+	box-shadow: 0px -3px 10px #D4D4D4;
+	/* -moz-box-shadow:    2px -8px 5px 10px black;
+  -webkit-box-shadow: 2px -8px 5px 10px black;
+  box-shadow:         2px -8px 5px 10px black; */
+	border-bottom: none;
+}
+
+.divnotselectedStyle {
+	border: 1px solid #D4D4D4;
+	background-color: #F2F2F2;
+	padding: 2px 2px 2px 2px;
+	cursor: pointer;
+	color: #616161;
+	font: 13px/18px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	-webkit-box-shadow: 0px -3px 10px #D4D4D4;
+	-moz-box-shadow: 0px -3px 10px #D4D4D4;
+	box-shadow: 0px -3px 10px #D4D4D4;
+	/* -moz-box-shadow:    2px -8px 5px 10px black;
+  -webkit-box-shadow: 2px -8px 5px 10px black;
+  box-shadow:         2px -8px 5px 10px black; */
+}
+
+.tabsTable {
+	width: 100%;
+	margin: 0px;
+}
+
+.tabsTableInFrame {
+	width: 100%;
+	margin: 0px;
+	height: 100%;
+}
+
+.tabsTable tr:hover td { /* background-color: #F4F6F8; */
+	
+}
+
+.tabsTable td {
+	border-bottom: 0px solid #D4D4D4;
+	padding-left: 0px
+}
+
+.tabBorderLine {
+	background-color: #045FB4;
+	height: 2px;
+	background: #045FB4;
+	border-bottom: 1px solid #BEBEBE;
+	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .12);
+	-o-box-shadow: 0 2px 4px rgba(0, 0, 0, .12);
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .12);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .12);
+	position: relative;
+	z-index: 1;
+}
+
+.tabBorderLineIE {
+	background: white;
+	border-top: 2px solid #045FB4;
+}
+
+.tabDiv {
+	font: 13px/18px Arial, Helvetica, sans-serif;
+	font-weight: 12px;
+	border: 1px solid #045FB4;
+	border-bottom: none;
+	background-color: #045FB4;
+	padding: 4px;
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+}
+
+.tabDivInActive {
+	font: 13px/18px Arial, Helvetica, sans-serif;
+	font-weight: 12px;
+	border: 1px solid #D8D8D8;
+	border-bottom: none;
+	background-color: whiteSmoke;
+	padding: 4px;
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+	color: black;
+	cursor: pointer;
+	text-align: center;
+}
+
+.tabDivInActive:hover {
+	font: 13px/18px Arial, Helvetica, sans-serif;
+	font-weight: 12px;
+	border: 1px solid #D4D4D4;
+	border-bottom: none;
+	background-color: #F2F2F2;
+	padding: 4px;
+	border-top-right-radius: 1px;
+	border-top-left-radius: 1px;
+	color: black;
+	cursor: pointer;
+	text-align: center;
+}
+
+.tabDivSelected {
+	background-color: black;
+	height: 2px;
+}
+/* .tabDiv:HOVER{
+	background-color: black;
+	color: white;
+	height: 2px;
+} */
+.sideTabDiv {
+	border: 1px solid #ccc;
+	border-top: none;
+	height: 500px;
+	width: 200px;
+	/* -moz-box-shadow:    0px 12px 50px -12px #585858;
+  	-webkit-box-shadow: 0px 12px 50px -12px #585858;
+ 	box-shadow:         0px 12px 50px -12px #585858; */
+	-moz-box-shadow: 10px 5px 10px -12px #585858;
+	-webkit-box-shadow: 10px 5px 10px -12px #585858;
+	box-shadow: 10px 5px 10px -12px #585858;
+}
+
+.sideTabDiv:HOVER {
+	text-decoration: none;
+	color: #E64E4B;
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+	-webkit-transition: border-bottom 0.8s ease-in-out;
+	-moz-transition: border-bottom 0.8s ease-in-out;
+	-o-transition: border-bottom 0.8s ease-in-out;
+	transition: border-bottom 0.8s ease-in-out;
+}
+
+.bodyTabDiv { /* border: 1px solid #ccc; */
+	border-top: none;
+	height: 100%;
+	width: 98%;
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+.contentHeaderDiv {
+	padding-top: 50px;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-size: 15px; 
+	line-height: 30px;
+	display: block;
+	font-weight: bold;
+	width: 90%;
+	/* color: #045FB4; */
+	color: Green;
+	padding-left: 15px;
+}
+
+.contentDiv {
+	padding-top: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	display: block;
+	width: 90%;
+	color: #333;
+	padding-left: 20px;
+}
+
+.documentStyleTable {
+	border: 1px solid #ccc;
+	border-bottom: none;
+	border-top: none;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+
+.mainDocumentStyleTable {
+	border-top: none;
+	height: 100%;
+	width: 85%;
+	background-color: white;
+	-moz-box-shadow: 0px 12px 20px -6px #585858;
+	-webkit-box-shadow: 0px 12px 20px -6px #585858;
+	box-shadow: 0px 12px 20px -6px #585858;
+}
+
+.footerDiv {
+	background: white;
+	border-bottom: 1px solid #BEBEBE;
+	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .12);
+	-o-box-shadow: 0 2px 4px rgba(0, 0, 0, .12);
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .12);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .12);
+	position: relative;
+	z-index: 1;
+}
+
+.footerFont {
+	padding-top: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.sideDivMain{
+	height: 100%;
+	padding-right: 10px;
+}
+.sideDiv{
+	background-color: #F2F2F2;
+	width: 300px;
+	height: 100px;
+	padding: 4px;
+	padding-top: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.sideDiv:HOVER{
+	background-color: #E6E6E6;
+	width: 300px;
+	height: 100px;
+	padding: 4px;
+	padding-top: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.sideDivHeader{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #B40404;
+	padding-top: 4px;
+	padding-left: 10px;
+}
+.sideDivContent{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: black;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+}
+.sideLinks{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #B40404;
+	padding-left: 10px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.sideLastDiv{
+	background-color: #585858;
+	width: 300px;
+	height: 110px;
+	padding: 4px;
+	padding-top: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+.sideLastDivHeader{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	padding-top: 4px;
+	padding-left: 10px;
+	text-align: left;
+}
+.sideLastDivContent{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: white;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	text-align: left;
+}
+.sideLastLinks{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	padding-left: 10px;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: left;
+}
+.contactDivHeader{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: green;
+	padding-top: 4px;
+	border-bottom: 1px solid #585858;
+}
+.contactDivContent{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	color: black;
+	padding-top: 4px;
+	text-align: left;
+	line-height: 20px;
+}
+.contactMapDiv{
+	background-color: #F2F2F2;
+	width: 300px;
+	height: 200px;
+	padding-top: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}

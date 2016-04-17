@@ -1,0 +1,323 @@
+.mainheaderlabel{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 40px;
+	color: white; 
+}
+.logoheaderlabel{
+	font-family:'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-size: 20px;
+	padding-left: 10px;
+	color: #045FB4;
+	text-decoration: underline; 
+}
+.headerlabel{
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-size: 12px;
+	font-weight: 800;
+	padding: 0px 0px 0px 5px;
+	text-decoration: none;
+}
+.label{
+	color: #000000;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-size: 10px;
+	font-weight: 400;
+	padding: 0px 0px 0px 5px;
+	line-height: 20px;
+}
+.textField{
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	height: 20px;
+	border-width: 1px;
+    border-style: solid;
+    border-color: #D4D4D4;
+}
+.styled-select{
+	font-family: sans-serif;
+	font-size: 11px;
+	height: 17px;
+	overflow: hidden;
+	background: transparent;
+	border-color: #D4D4D4; 
+}
+.button {
+	background-color: white;
+	border:1px solid #2380DC;
+	color: black;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-size:11px;
+	font-weight:400;
+	padding:2px 14px;
+	text-decoration:none;
+	cursor: pointer;
+}
+.button:HOVER {
+	background-color:#F4F6F8;
+	border:1px solid #2380DC;
+	color: black;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-size:11px;
+	font-weight:400;
+	padding:2px 14px;
+	text-decoration:none;
+	cursor: pointer;
+}
+.button:ACTIVE {
+	background-color:#2380DC;
+	border:1px solid #2380DC;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-size:11px;
+	font-weight:400;
+	padding:2px 14px;
+	text-decoration:none;
+	cursor: pointer;
+}
+.textField:focus{
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	height: 20px;
+	border-width: 1px;
+    border-style: solid;
+    border-color: #D4D4D4;
+}
+.loginlabel{
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px 0px 2px 35px;
+}
+.loginTextField{
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	height: 20px;
+	padding-left: 2px;
+	border-width: 1px;
+    border-style: solid;
+    border-color: #D4D4D4;
+}
+.loginheaderlabel{
+	font-family: Tahoma, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 2px 0px 5px 35px;
+}
+.errorLabel{
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: red; 
+	padding: 0px 0px 2px 35px;
+}
+.admiHeaderLabel{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	padding: 10px 0px 0px 10px;
+}
+.closeButton{
+	cursor: pointer;
+	padding: 10px 10px 0px 0px;
+	text-align: right;
+}
+.adminLabel{
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	padding: 0px 0px 0px 10px;
+}
+.adminErrorLabel{
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: red; 
+	padding: 0px 0px 2px 10px;
+}
+.dropShadowDiv{
+	-webkit-border-radius: 3px;
+	-webkit-box-orient: vertical;
+	-webkit-transition: 200ms -webkit-transform;
+	background: white;
+	box-shadow: 0 4px 23px 5px 	rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.15);
+	color: 	#333;
+	display: -webkit-box;
+	min-width: 400px;
+	padding: 0;
+	position: relative;
+	filter: {
+		progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=45, Color='#cccccc'),
+		progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=90, Color='#cccccc'),
+		progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#cccccc'),
+		progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=270, Color='#cccccc');
+	}
+}
+.shadow {
+	-moz-box-shadow: 2px 2px 3px #000;
+	-webkit-box-shadow: 2px 2px 3px #000;
+	box-shadow: 2px 2px 3px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=100, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=100, Color='#000000');
+}
+/* Scroll bar */
+::-webkit-scrollbar {
+	    width: 10px;
+	    height: 10px;
+	}
+	 
+::-webkit-scrollbar-button:vertical {
+    background-color: red;
+    border: 1px dashed blue;
+}
+	 
+	/* Turn on single button up on top, and down on bottom */
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+    display: block;
+}
+ 
+/* Turn off the down area up on top, and up area on bottom */
+::-webkit-scrollbar-button:vertical:start:increment,
+::-webkit-scrollbar-button:vertical:end:decrement {
+    display: none;
+}
+ 
+/* Place The scroll down button at the bottom */
+::-webkit-scrollbar-button:vertical:increment {
+    background-color: #3b3b3b;
+    /*border: 1px solid #3b3b3b;*/
+    border: 0px;
+}
+ 
+/* Place The scroll up button at the up */
+::-webkit-scrollbar-button:vertical:decrement {
+    background-color: #3b3b3b;
+    border: 0px;
+}
+ 
+::-webkit-scrollbar-track:vertical {
+    background-color: #3b3b3b;
+    border: 0px;
+}
+ 
+/* Top area above thumb and below up button */
+::-webkit-scrollbar-track-piece:vertical:start {
+    border: 0px;
+}
+ 
+/* Bottom area below thumb and down button */
+::-webkit-scrollbar-track-piece:vertical:end {
+    border: 0px;
+}
+ 
+/* Track below and above */
+::-webkit-scrollbar-track-piece {
+    background-color: #F2F2F2;
+}
+ 
+/* The thumb itself */
+::-webkit-scrollbar-thumb:vertical {
+    height: 50px;
+    background-color: #F2F2F2;
+    border: 1px solid #D6D6D6;
+}
+ 
+/* Corner */
+::-webkit-scrollbar-corner:vertical {
+    background-color: black;
+}
+ 
+/* Resizer */
+::-webkit-scrollbar-resizer:vertical {
+    background-color: red;
+}
+::-webkit-scrollbar-track-piece  {
+	background-color: #3b3b3b;
+}
+/* The thumb itself */
+::-webkit-scrollbar-thumb:horizontal {
+    height: 50px;
+    background-color: #F2F2F2;
+    border: 1px solid #D6D6D6;
+}
+/* Place The scroll down button at the bottom */
+::-webkit-scrollbar-button:horizontal:increment {
+    background-color: #3b3b3b;
+    /*border: 1px solid #3b3b3b;*/
+    border: 0px;
+}
+ 
+/* Place The scroll up button at the up */
+::-webkit-scrollbar-button:horizontal:decrement {
+    background-color: #3b3b3b;
+    border: 0px;
+}
+.popupbutton {
+	background-color: white;
+	border:2px solid #CB400A;
+	color: black;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-size:11px;
+	font-weight:400;
+	padding:2px 14px;
+	text-decoration:none;
+	cursor: pointer;
+}
+.popupbutton:hover {
+	background-color:#F4F6F8;
+	border:2px solid #CB400A;
+	color: black;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-size:11px;
+	font-weight:400;
+	padding:2px 14px;
+	text-decoration:none;
+	cursor: pointer;
+}
+.popupbutton:ACTIVE {
+	background-color:#CB400A;
+	border:2px solid #CB400A;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-size:11px;
+	font-weight:400;
+	padding:2px 14px;
+	text-decoration:none;
+	cursor: pointer;
+}
+.loginbutton {
+	background-color:#f7f7f7;
+	border:2px solid #2380DC;
+	color:#black;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-size:11px;
+	font-weight:400;
+	padding:2px 14px;
+	text-decoration:none;
+	cursor: pointer;
+}
+.loginbutton:ACTIVE {
+	background-color:#2380DC;
+	border:2px solid #2380DC;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-size:11px;
+	font-weight:400;
+	padding:2px 14px;
+	text-decoration:none;
+	cursor: pointer;
+}
+.disabledbutton {
+	background-color:#ffffff;
+	border:2px solid #B9BABB;
+	color:#black;
+	font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+	font-size:11px;
+	font-weight:400;
+	padding:2px 14px;
+	text-decoration:none;
+	cursor: pointer;
+}
